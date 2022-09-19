@@ -3,9 +3,9 @@
 set -e
 
 # TODO: Set to URL of git repo.
-PROJECT_GIT_URL='https://github.com/LondonAppDev/profiles-rest-api.git'
+PROJECT_GIT_URL='https://github.com/Saeedsarwar/AWS'
 
-PROJECT_BASE_PATH='/grayphite/Documents/AWSs'
+PROJECT_BASE_PATH='/grayphite/Documents/AWS'
 
 echo "Installing dependencies..."
 apt-get update
