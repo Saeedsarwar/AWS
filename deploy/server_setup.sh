@@ -5,7 +5,7 @@ set -e
 
 PROJECT_GIT_URL='https://github.com/Saeedsarwar/AWS.git'
 
-PROJECT_BASE_PATH='/grayphite/Documents'
+PROJECT_BASE_PATH='/grayphite/Documents/testing'
 VIRTUALENV_BASE_PATH='/usr/local/virtualenvs'
 
 # Set Ubuntu Language
