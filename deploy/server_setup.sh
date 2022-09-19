@@ -2,6 +2,7 @@
 
 set -e
 
+
 PROJECT_GIT_URL='https://github.com/Saeedsarwar/AWS.git'
 
 PROJECT_BASE_PATH='/usr/local/apps'
