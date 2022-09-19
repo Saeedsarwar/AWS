@@ -17,15 +17,15 @@ apt-get update
 apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git
 
 mkdir -p $PROJECT_BASE_PATH
-git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH/testing_api
+git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH/testing_api1
 
 mkdir -p $VIRTUALENV_BASE_PATH
-python3 -m venv $VIRTUALENV_BASE_PATH/testing_api
+python3 -m venv $VIRTUALENV_BASE_PATH/testing_api1
 
 $VIRTUALENV_BASE_PATH/profiles_api/bin/pip install -r $PROJECT_BASE_PATH/testing/requirements.txt
 
 # Run migrations
-cd $PROJECT_BASE_PATH/testing_api/src
+cd $PROJECT_BASE_PATH/testing_api1/src
 
 # Setup Supervisor to run our uwsgi process.
 cp $PROJECT_BASE_PATH/testing/deploy/supervisor_profiles_api.conf /etc/supervisor/conf.d/profiles_api.conf
