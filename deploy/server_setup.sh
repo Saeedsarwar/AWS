@@ -5,7 +5,7 @@ set -e
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/LondonAppDev/profiles-rest-api.git'
 
-PROJECT_BASE_PATH='/grayphite/Documents/AWS'
+PROJECT_BASE_PATH='/grayphite/Documents/AWSs'
 
 echo "Installing dependencies..."
 apt-get update
